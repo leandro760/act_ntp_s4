@@ -7,6 +7,7 @@ def sistema_calificaciones():
     notas = []
     
     while True:
+        
         entrada = input(f"calificacón #{""} {len(notas) + 1}: ")
         if entrada.lower() == 'fin':
             break

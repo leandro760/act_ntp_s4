@@ -51,5 +51,4 @@ def carrito_de_compras():
         else:
             print("Opción no válida, por favor intente de nuevo.")
             
-if __name__ == "__main__":
-    carrito_de_compras()
+print(carrito_de_compras())

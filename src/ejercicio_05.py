@@ -17,6 +17,7 @@ def buscar_palabras(palabras):
     else:
         print(f"No se encontraron palabras que contengan la letra '{letra}'.")
 
-if __name__ == "__main__":
-    lista_palabras = ["brasil", "programación", "vegueta", "desarrollo", "zapato"]
-    buscar_palabras(lista_palabras)
+
+lista_palabras = ["brasil", "programación", "vegueta", "desarrollo", "zapato"]
+
+buscar_palabras(lista_palabras)
