@@ -1,11 +1,6 @@
-# Ejercicio 19: Gestión de Calificaciones
-# Crea una función que gestione las calificaciones de estudiantes. Usa un diccionario donde la clave sea el nombre del estudiante 
-# y el valor una lista de calificaciones. Implementa funciones para agregar estudiantes, agregar calificaciones y calcular promedios.
-
 def gestionar_calificaciones():
     calificaciones = {}
 
-    # Ciclo para mostrar el menú y gestionar las calificaciones
     while True:
         print("\nMenú de Gestión de Calificaciones:\n")
         print("1. Agregar estudiante")
@@ -14,10 +9,8 @@ def gestionar_calificaciones():
         print("4. Mostrar calificaciones")
         print("5. Salir\n")
         
-        # Solicitar opción al usuario
         opcion = input("Seleccione una opción: ")
 
-        # Procesar la opción seleccionada
         if opcion == '1':
             nombre = input("Ingrese el nombre del estudiante: ")
             if nombre not in calificaciones:
@@ -50,10 +43,7 @@ def gestionar_calificaciones():
         elif opcion == '5':
             print("Saliendo del programa.")
             break
-        # Si la opción no es válida, se muestra un mensaje de error
         else:
             print("Opción no válida, intente nuevamente.")
-
-        # llamar a la función recursivamente para mostrar el menú nuevamente
 
 gestionar_calificaciones()

@@ -1,7 +1,3 @@
-# Ejercicio 15: Eliminación de Duplicados
-# Implementa una función que reciba una lista de números con duplicados y use un ciclo for para crear un conjunto con números únicos.
-# Luego compara el tamaño original vs el conjunto para mostrar cuántos duplicados había.
-
 def eliminar_duplicados():
     numeros = [1, 2, 2, 3, 4, 4, 5, 5, 5]  
     numeros_unicos = set()  

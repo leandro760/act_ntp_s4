@@ -1,6 +1,3 @@
-# Ejercicio 2: Sistema de Calificaciones
-# Implementa una función que solicite al usuario ingresar calificaciones usando un ciclo while hasta que escriba 'fin'. 
-# Almacena las calificaciones en una lista y calcula el promedio, la nota más alta y más baja.
 
 def sistema_calificaciones():
     print("Por favor ingrese sus calificaciones. Escribe 'fin' para terminar.")

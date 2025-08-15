@@ -1,11 +1,8 @@
-# Ejercicio 8: Secuencia de Fibonacci
-# Implementa una función que cree una tupla con los primeros 20 números de la secuencia de Fibonacci. 
-# Usa un ciclo while para generar la secuencia y luego un ciclo for para mostrar solo los números impares.
 
 def secuencia_fibonacci():
     fibonacci = []
     a, b = 0, 1
-    while len(fibonacci) <= 20:
+    while len(fibonacci) < 20:
         fibonacci.append(a)
         a, b = b, a + b
     return tuple(fibonacci)

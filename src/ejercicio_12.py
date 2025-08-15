@@ -1,7 +1,3 @@
-# Ejercicio 12: Palabras Únicas
-# Implementa una función que solicite al usuario ingresar palabras usando un ciclo while hasta que escriba 'salir'.
-# Almacena las palabras en un conjunto y muestra cuántas palabras únicas se ingresaron y cuáles se repitieron.
-
 def palabras():
     print("Por favor ingrese palabras. Escribe 'salir' para terminar.")
     unicas = set()

@@ -1,7 +1,3 @@
-# Ejercicio 16: Inventario de Productos
-# Crea una función que simule un inventario de productos. Usa un diccionario para almacenar producto:cantidad y un ciclo while para mostrar un menú que permita agregar,
-# actualizar, eliminar productos y mostrar el inventario completo.
-
 def inventario_productos():
     inventario = {}
 
